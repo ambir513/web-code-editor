@@ -1,10 +1,9 @@
-import { ThemeCard } from "@/components/theme/theme-card";
+import { HeroCard } from "@/components/landing/hero-card";
 
 export default function RootPage() {
   return (
     <div className="flex flex-col justify-center gap-3 items-center h-dvh">
-      <div className="text-2xl">Nextjs Config</div>
-      <ThemeCard />
+      <HeroCard />
     </div>
   );
 }
